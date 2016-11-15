@@ -8,33 +8,40 @@
  </head>
  <body>
 
-    <form action="#" method="get" onsubmit="reurn unesi()">
+    <form class="calc" action="#" method="get" onsubmit="reurn unesi()">
 
       <h1>Calculator</h1>
 
           <div class="numbers">
              <div class="inputTwo">
-               <input id="number-1"/>
+               <input type="number" id="number-1"/>
              </div>
 
              <div class="inputOne">
-               <input id="number-2"/>
+               <input type="number" id="number-2"/>
              </div>
          </div>
 
-      <div>
-           <button id="adding"><strong>+</strong></button>
-           <button id="subtract"><strong>-</strong></button>
-           <button id="multiply"><strong>x</strong></button>
-           <button id="divide"><strong>÷</strong></button>
-       </div>
+            <div class="buttons">
+               <button id="adding"><strong>+</strong></button>
+               <button id="subtract"><strong>-</strong></button>
+               <button id="multiply"><strong>x</strong></button>
+               <button id="divide"><strong>÷</strong></button>
+            </div>
 
        <hr>
-         <output id="total"> </output>
+
+       <div class="popOut"
+        <output id="total"></output>
+       </div>
 
      </form>
 
 
+
+    <footer>
+        <nav></nav>
+    </footer>
 
    <script src="main.js"></script>
  </body>
