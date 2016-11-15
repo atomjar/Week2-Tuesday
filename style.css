@@ -1,0 +1,50 @@
+
+form {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/77/82/16/778216fd533e95f51ce210af5cd8c41a.jpg);
+  margin: 0 auto;
+  width: 20em;
+  padding: 2em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin-top: 7em;
+  height: 22em;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Audiowide', cursive;
+}
+
+.numbers {
+  display: flex;
+}
+
+.inputOne {
+  margin: auto;
+  height: 3.5em;
+}
+
+.inputTwo {
+  margin: auto;
+  height: 3.5em;
+}
+
+button {
+  float: right;
+  margin-bottom: 2em;
+  background: red;
+  font-family: 'Audiowide', cursive;
+  width: 3em;
+  height: 3em;
+}
+
+button strong {
+  font-size: 1.5em;
+}
+
+output {
+  color: red;
+  font-size: 40px;
+}
